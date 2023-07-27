@@ -39,7 +39,66 @@
 <body class="font-lato">
   <header class="xl:container mx-auto">
     <!--nav section start-->
-    
+    <div class="navbar my-8 rounded-full lg:px-12 lg:py-7 bg-white text-black lg:bg-fruit-primary lg:text-white">
+      <div class="navbar-start hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>Shop</a></li>
+          <li><a>All Fruits</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-start lg:navbar-center">
+        <div class="flex items-center  gap-3">
+          <img src="images/logo.png" alt="">
+          <h2 class="text-xl lg:text-5xl font-semibol ">Fruit Burst</h2>
+        </div>
+
+      </div>
+      <div class="navbar-end">
+        <div class="form-control hidden lg:flex">
+          <div class="input-group">
+            <input type="text" placeholder="Search…" class="input rounded-full">
+            <button class="btn bg-white border-none outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-lg  end-0 dropdown-content z-[1] bg-base-100 w-screen">
+            <li><a>
+                <div class="form-control">
+                  <div class="input-group">
+                    <input type="text" placeholder="Search…" class="input">
+                    <button class="btn bg-white border-none">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </a></li>
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Shop</a></li>
+            <li><a>All Fruits</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!--nav section end-->
 
     <!--banner section start-->
@@ -113,24 +172,24 @@
         </div>
       </div>
       <!--position image section-->
-      <div class=" relative w-10/12 mx-auto -mt-24 hidden grid-cols-5 bg-white shadow-lg rounded-lg  md:grid">
-        <div class="flex flex-col justify-center items-center text-center">
+      <div class=" relative py-13 w-10/12 mx-auto -mt-32 hidden grid-cols-5 bg-white shadow-lg rounded-lg  md:grid">
+        <div class="flex flex-col justify-center items-center text-center gap-4">
           <img src="images/fruits/fruit1.png" alt="">
           <p>Red wine</p>
         </div>
-        <div class="flex flex-col justify-center items-center text-center">
+        <div class="flex flex-col justify-center items-center text-center gap-4">
           <img src="images/fruits/fruit2.png" alt="">
           <p>Orange</p>
         </div>
-        <div class="flex flex-col justify-center items-center text-center">
+        <div class="flex flex-col justify-center items-center text-center gap-4">
           <img src="images/fruits/fruit3.png" alt="">
           <p>mango</p>
         </div>
-        <div class="flex flex-col justify-center items-center text-center">
+        <div class="flex flex-col justify-center items-center text-center gap-4">
           <img src="images/fruits/fruit4.png" alt="">
           <p>Strawberry</p>
         </div>
-        <div class="flex flex-col justify-center items-center text-center">
+        <div class="flex flex-col justify-center items-center text-center gap-4">
           <img src="images/fruits/fruit5.png" alt="">
           <p>Pomegrante</p>
         </div>
